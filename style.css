@@ -92,3 +92,50 @@ body {
   flex: 1;
   background: #fffdfb;
 }
+
+.panel-signup {
+  width : 80%;
+  max-width : 350px;
+}
+
+.panel-signup h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #c641b4;
+}
+
+.panel-signup-form .input-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-signup-form label {
+  font-size: 24px;
+  margin-bottom: 6px;
+  color: #c641b4;
+}
+
+.panel-signup-from input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid;
+  font-size:14px;
+
+}
+
+.btn-signup {
+  padding: 10px 28px;
+  border-radius: 999px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  background: #c641b4;
+}
+
+.btn-signup:hover {
+  background: #e48ed6;
+}
